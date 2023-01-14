@@ -14,24 +14,40 @@
 
 ```gradle
 plugins {
-    id 'org.jetbrains.kotlin.jvm' version "1.5.0"
+	id 'java'
+	id 'org.jetbrains.kotlin.jvm' version '1.5.0'
+	id 'org.springframework.boot' version '2.7.7'
+	id 'io.spring.dependency-management' version '1.0.15.RELEASE'
 }
 
-java.sourcecompatibility = JavaVersion.VERSION_11
+java.sourceCompatibility = JavaVersion.VERSION_11
 java.targetCompatibility = JavaVersion.VERSION_11
-        
+
+group = 'com.example'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '11'
+
+repositories {
+	mavenCentral()
+}
+
 dependencies {
-    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
-    ...
-    ...
+	implementation 'org.jetbrains.kotlin:kotlin-stdlib-jdk8'
+	implementation 'org.springframework.boot:spring-boot-starter'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
 tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile) {
-    kotlinOptions {
-        jvmTarget = "11"
-        javaParameters = true
-        freeCompilerArgs = ["-Xjvm-default=aU"]
-    } 
+	kotlinOptions {
+		jvmTarget = '11'
+		javaParameters = true
+		freeCompilerArgs = ['-Xjvm-default=aU']
+	}
 }
+
+tasks.named('test') {
+	useJUnitPlatform()
+}
+
 ```
 
