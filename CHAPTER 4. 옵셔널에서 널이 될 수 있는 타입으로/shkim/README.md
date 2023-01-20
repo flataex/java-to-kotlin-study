@@ -1,6 +1,8 @@
 ### 예제 코드는 여기에
 https://github.com/MALLLAG/java-to-kotlin-example/tree/main/src/main/java/com/example/demo
 
+<br>
+
 ## 없음을 표현하기
 
 `코틀린을 null을 포용한다.` <br>
@@ -117,3 +119,258 @@ public class LongestLegOverTests {
     }
 }
 ```
+
+<br>
+
+***ver-1*** <br>
+
+> 코틀린에서 null이 될 수 없는 parameter를 지정하면 컴파일러가 null 검사를 추가해줌. <br>
+
+```kt
+import java.time.Duration
+import java.util.*
+
+object Legs {
+
+    @JvmStatic
+    fun findLongestLegOver(
+        legs: List<Leg>,
+        duration: Duration
+    ): Optional<Leg> {
+        var result: Leg? = null
+        for (leg in legs) {
+            if (isLongerThan(leg, duration)) {
+                if (result == null
+                    || isLongerThan(leg, result.plannedDuration)
+                ) {
+                    result = leg
+                }
+            }
+        }
+        return Optional.ofNullable(result)
+    }
+
+    private fun isLongerThan(leg: Leg, duration: Duration): Boolean {
+        return leg.plannedDuration.compareTo(duration) > 0
+    }
+}
+```
+
+```kt
+import com.example.demo.nullability.Legs.findLongestLegOver
+import org.junit.jupiter.api.Assertions
+import org.junit.jupiter.api.Test
+import java.time.Duration
+import java.util.*
+import java.util.List
+
+class LongestLegOverTests {
+
+    private val legs = List.of(
+        Leg.leg("one hour", Duration.ofHours(1)),
+        Leg.leg("one day", Duration.ofDays(1)),
+        Leg.leg("two hours", Duration.ofHours(2))
+    )
+    private val oneDay = Duration.ofDays(1)
+
+    @Test
+    fun is_absent_when_no_legs() {
+        Assertions.assertEquals(
+            Optional.empty<Any>(),
+            findLongestLegOver(emptyList(), Duration.ZERO)
+        )
+    }
+
+    @Test
+    fun is_absent_when_no_legs_long_enough() {
+        Assertions.assertEquals(
+            Optional.empty<Any>(),
+            findLongestLegOver(legs, oneDay)
+        )
+    }
+
+    @Test
+    fun is_longest_leg_when_one_match() {
+        Assertions.assertEquals(
+            "one day",
+            findLongestLegOver(legs, oneDay.minusMillis(1))
+                .orElseThrow().description
+        )
+    }
+
+    @Test
+    fun is_longest_leg_when_more_than_one_match() {
+        Assertions.assertEquals(
+            "one day",
+            findLongestLegOver(legs, Duration.ofMinutes(59))
+                .orElseThrow().description
+        )
+    }
+}
+```
+
+<br>
+
+***ver-2***
+
+> 점진적으로 migration하기 위해 두 개의 findLongestLegOver를 만들자. <br>
+> 하나는 Optional<Leg>를 반환, 다른 하나는 Leg?를 반환. <br>
+> 자바 클라에서는 findLongestLegOver를 사용하고, 코틀린 클라에서는 longestLegOver를 사용하면 된다. <br>
+> 자바에서 orElseThrow()는 코틀린에서는 !!와 같다. <br>
+> 코틀린에서 ?.는 안전한 호출 연산자로, null이 아닐 때만 평가가 계속되고, null이면 null로 평가된다.
+
+```kt
+import java.time.Duration
+import java.util.*
+
+object Legs {
+
+    @JvmStatic
+    fun findLongestLegOver(
+        legs: List<Leg>,
+        duration: Duration
+    ): Optional<Leg> {
+        return Optional.ofNullable(longestLegOver(legs, duration))
+    }
+
+    fun longestLegOver(
+        legs: List<Leg>,
+        duration: Duration
+    ): Leg? {
+        var result: Leg? = null
+        for (leg in legs) {
+            if (isLongerThan(leg, duration)) {
+                if (result == null
+                    || isLongerThan(leg, result.plannedDuration)
+                ) {
+                    result = leg
+                }
+            }
+        }
+        return result
+    }
+
+    private fun isLongerThan(leg: Leg, duration: Duration): Boolean {
+        return leg.plannedDuration.compareTo(duration) > 0
+    }
+}
+```
+
+```kt
+import com.example.demo.nullability.Legs.longestLegOver
+import org.junit.jupiter.api.Assertions.*
+import org.junit.jupiter.api.Test
+import java.time.Duration
+import java.util.List
+
+class LongestLegOverTests {
+
+    private val legs = List.of(
+        Leg.leg("one hour", Duration.ofHours(1)),
+        Leg.leg("one day", Duration.ofDays(1)),
+        Leg.leg("two hours", Duration.ofHours(2))
+    )
+    private val oneDay = Duration.ofDays(1)
+
+    @Test
+    fun `is absent when no legs`() {
+        assertNull(longestLegOver(emptyList(), Duration.ZERO))
+    }
+
+    @Test
+    fun `is absent when no legs long enough`() {
+        assertNull(longestLegOver(legs, oneDay))
+    }
+
+    @Test
+    fun `is longest leg when one match`() {
+        assertEquals(
+            "one day",
+            longestLegOver(legs, oneDay.minusMillis(1))
+                !!.description
+        )
+    }
+
+    @Test
+    fun `is longest leg when more than one match`() {
+        assertEquals(
+            "one day",
+            longestLegOver(legs, Duration.ofMinutes(59))
+                ?.description
+        )
+    }
+}
+```
+
+<br>
+
+***ver-3***
+
+> 코틀린스러운 코드로 리팩토링하면 다음과 같다
+> 엘비스 연산자인 ?:는 좌변이 null이 아니면 좌변을, null이면 우변을 돌려준다
+
+```kt
+import java.time.Duration
+
+fun List<Leg>.longestOver(duration: Duration): Leg? {
+    val longestLeg = maxByOrNull(Leg::plannedDuration)
+    return when {
+        longestLeg == null -> null
+        longestLeg.plannedDuration > duration -> longestLeg
+        else -> null
+    }
+}
+```
+
+```kt
+import org.junit.jupiter.api.Assertions.assertEquals
+import org.junit.jupiter.api.Assertions.assertNull
+import org.junit.jupiter.api.Test
+import java.time.Duration
+import java.util.List
+
+class LongestLegOverTests {
+
+    private val legs = List.of(
+        Leg.leg("one hour", Duration.ofHours(1)),
+        Leg.leg("one day", Duration.ofDays(1)),
+        Leg.leg("two hours", Duration.ofHours(2))
+    )
+    private val oneDay = Duration.ofDays(1)
+
+    @Test
+    fun `is absent when no legs`() {
+        assertNull(emptyList<Leg>().longestOver(Duration.ZERO))
+    }
+
+    @Test
+    fun `is absent when no legs long enough`() {
+        assertNull(legs.longestOver(oneDay))
+    }
+
+    @Test
+    fun `is longest leg when one match`() {
+        assertEquals(
+            "one day",
+            legs.longestOver(oneDay.minusMillis(1))
+                !!.description
+        )
+    }
+
+    @Test
+    fun `is longest leg when more than one match`() {
+        assertEquals(
+            "one day",
+            legs.longestOver(Duration.ofMinutes(59))
+                ?.description
+        )
+    }
+}
+```
+
+<br>
+
+## 정리
+
+자바 Optional 타입은 투박하게 느껴지고, Optional을 null이 될 수 있는 타입으로 쉽게 migration 가능하다. <br>
+모든 코드를 변환할 준비가 되지 않더라도, 둘을 혼용해서 사용도 가능하다.
