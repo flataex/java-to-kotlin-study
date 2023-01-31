@@ -2,7 +2,7 @@
 
 ## 5.2 값
 
-> 값 = value = variable, parameter, field &rarr; 불변 데이터 조각으로 정의
+> 값 = value = variable, parameter, field &rarr; 불변 데이터 조각으로 정의<br>
 > 값 타입 = 불변 데이터 조각의 동작을 정의하는 타입
 
 ## 5.3 값을 선호해야만 하는 이유는 무엇인가?

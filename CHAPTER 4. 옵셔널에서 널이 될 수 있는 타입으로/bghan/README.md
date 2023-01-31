@@ -10,7 +10,7 @@
 - 코틀린 타입에선 T = T?의 하위 타입 ex) String 타입 값을 String? 타입 값에 할당 가능
 - T &ne; Optional<T>의 하위 타입 ex) String 타입 값을 Optional 타입 값에 할당하기 위해 Optional<String> 감싸야함
 
-∴ `String? &rarr; String` 은 쉽지만, `String? &rarr; Optional<String>` 은 어려움
+∴ `String? -> String` 은 쉽지만, `String? -> Optional<String>` 은 어려움
 
 
 ## 4.2 옵셔널에서 널 가능성으로 리팩터링하기

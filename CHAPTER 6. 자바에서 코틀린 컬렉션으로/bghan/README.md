@@ -1,6 +1,6 @@
 # 자바에서 코틀린 컬렉션으로
 
-## 6,1 자바 컬렉션
+## 6.1 자바 컬렉션
 
 ```java
 public static int sufferScoreFor(List<Journey> route) {
