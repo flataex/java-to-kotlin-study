@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="199ed04c-b4c2-427a-af08-d51a646126bb" name="변경" comment="chore : gitignore list 추가">
+      <change afterPath="$PROJECT_DIR$/CHAPTER 4. 옵셔널에서 널이 될 수 있는 타입으로/bghan/java/src/main/Leg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CHAPTER 4. 옵셔널에서 널이 될 수 있는 타입으로/bghan/java/src/main/Legs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CHAPTER 4. 옵셔널에서 널이 될 수 있는 타입으로/bghan/java/src/test/LongestLegOverTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CHAPTER 4. 옵셔널에서 널이 될 수 있는 타입으로/bghan/kotlin/src/main/kotlin/Leg.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CHAPTER 4. 옵셔널에서 널이 될 수 있는 타입으로/bghan/kotlin/src/main/kotlin/Legs.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CHAPTER 4. 옵셔널에서 널이 될 수 있는 타입으로/bghan/kotlin/src/test/kotlin/LongestLegOverTests.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 4. 옵셔널에서 널이 될 수 있는 타입으로/bghan/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 4. 옵셔널에서 널이 될 수 있는 타입으로/bghan/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="bghan" />
+                    <option name="lastUsedInstant" value="1674534657" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1674534649" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2KMAiwVDVqyRqneqSn55bq4xLXW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/baekgyu/IdeaProjects/java-to-kotlin-study&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;,
+    &quot;settings.editor.splitter.proportion&quot;: &quot;0.3122222&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/CHAPTER 2. 자바 프로젝트에서 코틀린 프로젝트로/bghan" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="199ed04c-b4c2-427a-af08-d51a646126bb" name="변경" comment="" />
+      <created>1673774208846</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1673774208846</updated>
+      <workItem from="1673774210747" duration="3186000" />
+      <workItem from="1673784934228" duration="7579000" />
+      <workItem from="1674020011866" duration="2719000" />
+      <workItem from="1674534413957" duration="2622000" />
+      <workItem from="1674537304130" duration="1026000" />
+      <workItem from="1674561608613" duration="3901000" />
+    </task>
+    <task id="LOCAL-00001" summary="docs : Chapter 1. 소개 내용 정리">
+      <created>1673786112758</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673786112758</updated>
+    </task>
+    <task id="LOCAL-00002" summary="docs : Chapter 2. 자바 프로젝트에서 코틀린 프로젝트로 내용 정리">
+      <created>1673786124540</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1673786124540</updated>
+    </task>
+    <task id="LOCAL-00003" summary="docs : Chapter 3. 자바 클래스에서 코틀린 클래스로 내용 정리">
+      <created>1673792643984</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1673792643984</updated>
+    </task>
+    <task id="LOCAL-00004" summary="docs : Chapter 3. 자바 클래스에서 코틀린 클래스로 예제 코드">
+      <created>1673792658555</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1673792658555</updated>
+    </task>
+    <task id="LOCAL-00005" summary="chore : gitignore list 추가">
+      <created>1673792672163</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1673792672163</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/yckim" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="docs : Chapter 1. 소개 내용 정리" />
+    <MESSAGE value="docs : Chapter 2. 자바 프로젝트에서 코틀린 프로젝트로 내용 정리" />
+    <MESSAGE value="docs : Chapter 3. 자바 클래스에서 코틀린 클래스로 내용 정리" />
+    <MESSAGE value="docs : Chapter 3. 자바 클래스에서 코틀린 클래스로 예제 코드" />
+    <MESSAGE value="chore : gitignore list 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore : gitignore list 추가" />
+  </component>
+</project>
