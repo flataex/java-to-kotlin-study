@@ -4,14 +4,175 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="199ed04c-b4c2-427a-af08-d51a646126bb" name="변경" comment="chore : gitignore list 추가">
-      <change afterPath="$PROJECT_DIR$/CHAPTER 4. 옵셔널에서 널이 될 수 있는 타입으로/bghan/java/src/main/Leg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CHAPTER 4. 옵셔널에서 널이 될 수 있는 타입으로/bghan/java/src/main/Legs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CHAPTER 4. 옵셔널에서 널이 될 수 있는 타입으로/bghan/java/src/test/LongestLegOverTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CHAPTER 4. 옵셔널에서 널이 될 수 있는 타입으로/bghan/kotlin/src/main/kotlin/Leg.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CHAPTER 4. 옵셔널에서 널이 될 수 있는 타입으로/bghan/kotlin/src/main/kotlin/Legs.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CHAPTER 4. 옵셔널에서 널이 될 수 있는 타입으로/bghan/kotlin/src/test/kotlin/LongestLegOverTests.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CHAPTER 4. 옵셔널에서 널이 될 수 있는 타입으로/bghan/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 4. 옵셔널에서 널이 될 수 있는 타입으로/bghan/README.md" afterDir="false" />
+    <list default="true" id="199ed04c-b4c2-427a-af08-d51a646126bb" name="변경" comment="chore : chapter 정렬을 위한 1의 자리 번호에 0 삽입">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 1. 소개/bghan/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 01. 소개/bghan/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 1. 소개/dgmoon/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 01. 소개/dgmoon/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 1. 소개/shkim/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 01. 소개/shkim/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 1. 소개/yckim/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 01. 소개/yckim/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 1. 소개/yckim/chapter1/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 01. 소개/yckim/chapter1/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 1. 소개/yckim/chapter1/java/sum/AddIntegers.java" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 01. 소개/yckim/chapter1/java/sum/AddIntegers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 1. 소개/yckim/chapter1/java/sum/BiFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 01. 소개/yckim/chapter1/java/sum/BiFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 1. 소개/yckim/chapter1/java/sum/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 01. 소개/yckim/chapter1/java/sum/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 1. 소개/yckim/chapter1/java/sum/Vectors.java" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 01. 소개/yckim/chapter1/java/sum/Vectors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 1. 소개/yckim/chapter1/java/sum/java2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 01. 소개/yckim/chapter1/java/sum/java2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 1. 소개/yckim/chapter1/java/sum/java5/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 01. 소개/yckim/chapter1/java/sum/java5/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 1. 소개/yckim/chapter1/java/sum/java8/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 01. 소개/yckim/chapter1/java/sum/java8/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 1. 소개/yckim/chapter1/kotlin/sum/Sum.kt" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 01. 소개/yckim/chapter1/kotlin/sum/Sum.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 2. 자바 프로젝트에서 코틀린 프로젝트로/bghan/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 02. 자바 프로젝트에서 코틀린 프로젝트로/bghan/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 2. 자바 프로젝트에서 코틀린 프로젝트로/dgmoon/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 02. 자바 프로젝트에서 코틀린 프로젝트로/dgmoon/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 2. 자바 프로젝트에서 코틀린 프로젝트로/shkim/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 02. 자바 프로젝트에서 코틀린 프로젝트로/shkim/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 2. 자바 프로젝트에서 코틀린 프로젝트로/yckim/chapter2/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 02. 자바 프로젝트에서 코틀린 프로젝트로/yckim/chapter2/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 3. 자바 클래스에서 코틀린 클래스로/bghan/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 03. 자바 클래스에서 코틀린 클래스로/bghan/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 3. 자바 클래스에서 코틀린 클래스로/bghan/example/java/EmailAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 03. 자바 클래스에서 코틀린 클래스로/bghan/example/java/EmailAddress.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 3. 자바 클래스에서 코틀린 클래스로/bghan/example/java/EmailAddressTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 03. 자바 클래스에서 코틀린 클래스로/bghan/example/java/EmailAddressTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 3. 자바 클래스에서 코틀린 클래스로/bghan/example/java/Marketing.java" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 03. 자바 클래스에서 코틀린 클래스로/bghan/example/java/Marketing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 3. 자바 클래스에서 코틀린 클래스로/bghan/example/java/Money.java" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 03. 자바 클래스에서 코틀린 클래스로/bghan/example/java/Money.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 3. 자바 클래스에서 코틀린 클래스로/bghan/example/kotlin/EmailAddress.kt" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 03. 자바 클래스에서 코틀린 클래스로/bghan/example/kotlin/EmailAddress.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 3. 자바 클래스에서 코틀린 클래스로/bghan/example/kotlin/Money.kt" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 03. 자바 클래스에서 코틀린 클래스로/bghan/example/kotlin/Money.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 3. 자바 클래스에서 코틀린 클래스로/dgmoon/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 03. 자바 클래스에서 코틀린 클래스로/dgmoon/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 3. 자바 클래스에서 코틀린 클래스로/shkim/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 03. 자바 클래스에서 코틀린 클래스로/shkim/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 3. 자바 클래스에서 코틀린 클래스로/yckim/chapter3/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 03. 자바 클래스에서 코틀린 클래스로/yckim/chapter3/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 3. 자바 클래스에서 코틀린 클래스로/yckim/chapter3/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 03. 자바 클래스에서 코틀린 클래스로/yckim/chapter3/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 3. 자바 클래스에서 코틀린 클래스로/yckim/chapter3/java/email/EmailAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 03. 자바 클래스에서 코틀린 클래스로/yckim/chapter3/java/email/EmailAddress.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 3. 자바 클래스에서 코틀린 클래스로/yckim/chapter3/java/money/Money.java" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 03. 자바 클래스에서 코틀린 클래스로/yckim/chapter3/java/money/Money.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 3. 자바 클래스에서 코틀린 클래스로/yckim/chapter3/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 03. 자바 클래스에서 코틀린 클래스로/yckim/chapter3/kotlin/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 3. 자바 클래스에서 코틀린 클래스로/yckim/chapter3/kotlin/email/v1/EmailAddress.kt" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 03. 자바 클래스에서 코틀린 클래스로/yckim/chapter3/kotlin/email/v1/EmailAddress.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 3. 자바 클래스에서 코틀린 클래스로/yckim/chapter3/kotlin/email/v2/EmailAddress.kt" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 03. 자바 클래스에서 코틀린 클래스로/yckim/chapter3/kotlin/email/v2/EmailAddress.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 3. 자바 클래스에서 코틀린 클래스로/yckim/chapter3/kotlin/email/v3/EmailAddress.kt" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 03. 자바 클래스에서 코틀린 클래스로/yckim/chapter3/kotlin/email/v3/EmailAddress.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 3. 자바 클래스에서 코틀린 클래스로/yckim/chapter3/kotlin/money/Money.kt" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 03. 자바 클래스에서 코틀린 클래스로/yckim/chapter3/kotlin/money/Money.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 4. 옵셔널에서 널이 될 수 있는 타입으로/bghan/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 04. 옵셔널에서 널이 될 수 있는 타입으로/bghan/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 4. 옵셔널에서 널이 될 수 있는 타입으로/bghan/java/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 04. 옵셔널에서 널이 될 수 있는 타입으로/bghan/java/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 4. 옵셔널에서 널이 될 수 있는 타입으로/bghan/java/.idea/jpa-buddy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 04. 옵셔널에서 널이 될 수 있는 타입으로/bghan/java/.idea/jpa-buddy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 4. 옵셔널에서 널이 될 수 있는 타입으로/bghan/java/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 04. 옵셔널에서 널이 될 수 있는 타입으로/bghan/java/.idea/kotlinc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 4. 옵셔널에서 널이 될 수 있는 타입으로/bghan/java/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 04. 옵셔널에서 널이 될 수 있는 타입으로/bghan/java/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 4. 옵셔널에서 널이 될 수 있는 타입으로/bghan/java/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 04. 옵셔널에서 널이 될 수 있는 타입으로/bghan/java/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 4. 옵셔널에서 널이 될 수 있는 타입으로/bghan/java/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 04. 옵셔널에서 널이 될 수 있는 타입으로/bghan/java/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 4. 옵셔널에서 널이 될 수 있는 타입으로/bghan/java/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 04. 옵셔널에서 널이 될 수 있는 타입으로/bghan/java/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 4. 옵셔널에서 널이 될 수 있는 타입으로/bghan/java/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 04. 옵셔널에서 널이 될 수 있는 타입으로/bghan/java/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 4. 옵셔널에서 널이 될 수 있는 타입으로/bghan/java/java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 04. 옵셔널에서 널이 될 수 있는 타입으로/bghan/java/java.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 4. 옵셔널에서 널이 될 수 있는 타입으로/bghan/java/out/production/java/main/Leg.class" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 04. 옵셔널에서 널이 될 수 있는 타입으로/bghan/java/out/production/java/main/Leg.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 4. 옵셔널에서 널이 될 수 있는 타입으로/bghan/java/out/production/java/main/Legs.class" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 04. 옵셔널에서 널이 될 수 있는 타입으로/bghan/java/out/production/java/main/Legs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 4. 옵셔널에서 널이 될 수 있는 타입으로/bghan/java/out/production/java/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 04. 옵셔널에서 널이 될 수 있는 타입으로/bghan/java/out/production/java/main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 4. 옵셔널에서 널이 될 수 있는 타입으로/bghan/java/out/test/java/LongestLegOverTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 04. 옵셔널에서 널이 될 수 있는 타입으로/bghan/java/out/test/java/LongestLegOverTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 4. 옵셔널에서 널이 될 수 있는 타입으로/bghan/java/src/main/Leg.java" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 04. 옵셔널에서 널이 될 수 있는 타입으로/bghan/java/src/main/Leg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 4. 옵셔널에서 널이 될 수 있는 타입으로/bghan/java/src/main/Legs.java" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 04. 옵셔널에서 널이 될 수 있는 타입으로/bghan/java/src/main/Legs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 4. 옵셔널에서 널이 될 수 있는 타입으로/bghan/java/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 04. 옵셔널에서 널이 될 수 있는 타입으로/bghan/java/src/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 4. 옵셔널에서 널이 될 수 있는 타입으로/bghan/java/src/test/LongestLegOverTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 04. 옵셔널에서 널이 될 수 있는 타입으로/bghan/java/src/test/LongestLegOverTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 4. 옵셔널에서 널이 될 수 있는 타입으로/bghan/kotlin/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 04. 옵셔널에서 널이 될 수 있는 타입으로/bghan/kotlin/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 4. 옵셔널에서 널이 될 수 있는 타입으로/bghan/kotlin/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 04. 옵셔널에서 널이 될 수 있는 타입으로/bghan/kotlin/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 4. 옵셔널에서 널이 될 수 있는 타입으로/bghan/kotlin/.idea/jpa-buddy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 04. 옵셔널에서 널이 될 수 있는 타입으로/bghan/kotlin/.idea/jpa-buddy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 4. 옵셔널에서 널이 될 수 있는 타입으로/bghan/kotlin/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 04. 옵셔널에서 널이 될 수 있는 타입으로/bghan/kotlin/.idea/kotlinc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 4. 옵셔널에서 널이 될 수 있는 타입으로/bghan/kotlin/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 04. 옵셔널에서 널이 될 수 있는 타입으로/bghan/kotlin/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 4. 옵셔널에서 널이 될 수 있는 타입으로/bghan/kotlin/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 04. 옵셔널에서 널이 될 수 있는 타입으로/bghan/kotlin/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 4. 옵셔널에서 널이 될 수 있는 타입으로/bghan/kotlin/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 04. 옵셔널에서 널이 될 수 있는 타입으로/bghan/kotlin/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 4. 옵셔널에서 널이 될 수 있는 타입으로/bghan/kotlin/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 04. 옵셔널에서 널이 될 수 있는 타입으로/bghan/kotlin/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 4. 옵셔널에서 널이 될 수 있는 타입으로/bghan/kotlin/kotlin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 04. 옵셔널에서 널이 될 수 있는 타입으로/bghan/kotlin/kotlin.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 4. 옵셔널에서 널이 될 수 있는 타입으로/bghan/kotlin/out/production/kotlin/META-INF/kotlin.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 04. 옵셔널에서 널이 될 수 있는 타입으로/bghan/kotlin/out/production/kotlin/META-INF/kotlin.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 4. 옵셔널에서 널이 될 수 있는 타입으로/bghan/kotlin/out/production/kotlin/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 04. 옵셔널에서 널이 될 수 있는 타입으로/bghan/kotlin/out/production/kotlin/MainKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 4. 옵셔널에서 널이 될 수 있는 타입으로/bghan/kotlin/src/main/kotlin/Leg.kt" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 04. 옵셔널에서 널이 될 수 있는 타입으로/bghan/kotlin/src/main/kotlin/Leg.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 4. 옵셔널에서 널이 될 수 있는 타입으로/bghan/kotlin/src/main/kotlin/Legs.kt" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 04. 옵셔널에서 널이 될 수 있는 타입으로/bghan/kotlin/src/main/kotlin/Legs.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 4. 옵셔널에서 널이 될 수 있는 타입으로/bghan/kotlin/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 04. 옵셔널에서 널이 될 수 있는 타입으로/bghan/kotlin/src/main/kotlin/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 4. 옵셔널에서 널이 될 수 있는 타입으로/bghan/kotlin/src/test/kotlin/LongestLegOverTests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 04. 옵셔널에서 널이 될 수 있는 타입으로/bghan/kotlin/src/test/kotlin/LongestLegOverTests.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 4. 옵셔널에서 널이 될 수 있는 타입으로/dgmoon/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 04. 옵셔널에서 널이 될 수 있는 타입으로/dgmoon/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 4. 옵셔널에서 널이 될 수 있는 타입으로/dgmoon/travelator/KotlinLeg.kt" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 04. 옵셔널에서 널이 될 수 있는 타입으로/dgmoon/travelator/KotlinLeg.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 4. 옵셔널에서 널이 될 수 있는 타입으로/dgmoon/travelator/KotlinLegs.kt" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 04. 옵셔널에서 널이 될 수 있는 타입으로/dgmoon/travelator/KotlinLegs.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 4. 옵셔널에서 널이 될 수 있는 타입으로/dgmoon/travelator/Leg.java" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 04. 옵셔널에서 널이 될 수 있는 타입으로/dgmoon/travelator/Leg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 4. 옵셔널에서 널이 될 수 있는 타입으로/dgmoon/travelator/Legs.java" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 04. 옵셔널에서 널이 될 수 있는 타입으로/dgmoon/travelator/Legs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 4. 옵셔널에서 널이 될 수 있는 타입으로/dgmoon/travelator/test/KotlinLongestLegOverTests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 04. 옵셔널에서 널이 될 수 있는 타입으로/dgmoon/travelator/test/KotlinLongestLegOverTests.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 4. 옵셔널에서 널이 될 수 있는 타입으로/dgmoon/travelator/test/LongestLegOverTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 04. 옵셔널에서 널이 될 수 있는 타입으로/dgmoon/travelator/test/LongestLegOverTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 4. 옵셔널에서 널이 될 수 있는 타입으로/shkim/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 04. 옵셔널에서 널이 될 수 있는 타입으로/shkim/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 4. 옵셔널에서 널이 될 수 있는 타입으로/yckim/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 04. 옵셔널에서 널이 될 수 있는 타입으로/yckim/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 4. 옵셔널에서 널이 될 수 있는 타입으로/yckim/chapter4/java/v1/Legs.java" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 04. 옵셔널에서 널이 될 수 있는 타입으로/yckim/chapter4/java/v1/Legs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 4. 옵셔널에서 널이 될 수 있는 타입으로/yckim/chapter4/java/v2/Legs.java" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 04. 옵셔널에서 널이 될 수 있는 타입으로/yckim/chapter4/java/v2/Legs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 4. 옵셔널에서 널이 될 수 있는 타입으로/yckim/chapter4/java/v3/Legs.java" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 04. 옵셔널에서 널이 될 수 있는 타입으로/yckim/chapter4/java/v3/Legs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 4. 옵셔널에서 널이 될 수 있는 타입으로/yckim/chapter4/kotlin/Leg.kt" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 04. 옵셔널에서 널이 될 수 있는 타입으로/yckim/chapter4/kotlin/Leg.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 4. 옵셔널에서 널이 될 수 있는 타입으로/yckim/chapter4/kotlin/v2/Legs.kt" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 04. 옵셔널에서 널이 될 수 있는 타입으로/yckim/chapter4/kotlin/v2/Legs.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 4. 옵셔널에서 널이 될 수 있는 타입으로/yckim/chapter4/kotlin/v3/Legs.kt" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 04. 옵셔널에서 널이 될 수 있는 타입으로/yckim/chapter4/kotlin/v3/Legs.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 5. 빈에서 값으로/bghan/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 05. 빈에서 값으로/bghan/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 5. 빈에서 값으로/dgmoon/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 05. 빈에서 값으로/dgmoon/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 5. 빈에서 값으로/dgmoon/travelator/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 05. 빈에서 값으로/dgmoon/travelator/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 5. 빈에서 값으로/dgmoon/travelator/CurrencyPicker.java" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 05. 빈에서 값으로/dgmoon/travelator/CurrencyPicker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 5. 빈에서 값으로/dgmoon/travelator/GreetingPicker.java" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 05. 빈에서 값으로/dgmoon/travelator/GreetingPicker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 5. 빈에서 값으로/dgmoon/travelator/KotlinApplication.kt" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 05. 빈에서 값으로/dgmoon/travelator/KotlinApplication.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 5. 빈에서 값으로/dgmoon/travelator/KotlinPreferencesView.kt" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 05. 빈에서 값으로/dgmoon/travelator/KotlinPreferencesView.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 5. 빈에서 값으로/dgmoon/travelator/KotlinUserPreferences.kt" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 05. 빈에서 값으로/dgmoon/travelator/KotlinUserPreferences.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 5. 빈에서 값으로/dgmoon/travelator/KotlinWelcomeView.kt" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 05. 빈에서 값으로/dgmoon/travelator/KotlinWelcomeView.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 5. 빈에서 값으로/dgmoon/travelator/LocalePicker.java" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 05. 빈에서 값으로/dgmoon/travelator/LocalePicker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 5. 빈에서 값으로/dgmoon/travelator/PreferencesView.java" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 05. 빈에서 값으로/dgmoon/travelator/PreferencesView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 5. 빈에서 값으로/dgmoon/travelator/UserPreferences.java" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 05. 빈에서 값으로/dgmoon/travelator/UserPreferences.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 5. 빈에서 값으로/dgmoon/travelator/View.kt" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 05. 빈에서 값으로/dgmoon/travelator/View.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 5. 빈에서 값으로/dgmoon/travelator/WelcomeView.java" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 05. 빈에서 값으로/dgmoon/travelator/WelcomeView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 5. 빈에서 값으로/shkim/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 05. 빈에서 값으로/shkim/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 5. 빈에서 값으로/yckim/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 05. 빈에서 값으로/yckim/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 5. 빈에서 값으로/yckim/chapter5/java/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 05. 빈에서 값으로/yckim/chapter5/java/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 5. 빈에서 값으로/yckim/chapter5/java/PreferencesView.java" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 05. 빈에서 값으로/yckim/chapter5/java/PreferencesView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 5. 빈에서 값으로/yckim/chapter5/java/UserPreferences.java" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 05. 빈에서 값으로/yckim/chapter5/java/UserPreferences.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 5. 빈에서 값으로/yckim/chapter5/java/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 05. 빈에서 값으로/yckim/chapter5/java/View.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 5. 빈에서 값으로/yckim/chapter5/java/WelcomeView.java" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 05. 빈에서 값으로/yckim/chapter5/java/WelcomeView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 5. 빈에서 값으로/yckim/chapter5/kotlin/v1/Application.kt" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 05. 빈에서 값으로/yckim/chapter5/kotlin/v1/Application.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 5. 빈에서 값으로/yckim/chapter5/kotlin/v1/UserPreferences.kt" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 05. 빈에서 값으로/yckim/chapter5/kotlin/v1/UserPreferences.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 5. 빈에서 값으로/yckim/chapter5/kotlin/v2/Application.kt" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 05. 빈에서 값으로/yckim/chapter5/kotlin/v2/Application.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 5. 빈에서 값으로/yckim/chapter5/kotlin/v2/PreferencesView.kt" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 05. 빈에서 값으로/yckim/chapter5/kotlin/v2/PreferencesView.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 5. 빈에서 값으로/yckim/chapter5/kotlin/v2/UserPreferences.kt" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 05. 빈에서 값으로/yckim/chapter5/kotlin/v2/UserPreferences.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 5. 빈에서 값으로/yckim/chapter5/kotlin/v2/WelcomeView.kt" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 05. 빈에서 값으로/yckim/chapter5/kotlin/v2/WelcomeView.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 6. 자바에서 코틀린 컬렉션으로/bghan/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 06. 자바에서 코틀린 컬렉션으로/bghan/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 6. 자바에서 코틀린 컬렉션으로/dgmoon/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 06. 자바에서 코틀린 컬렉션으로/dgmoon/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 6. 자바에서 코틀린 컬렉션으로/dgmoon/travelator/Journey.java" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 06. 자바에서 코틀린 컬렉션으로/dgmoon/travelator/Journey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 6. 자바에서 코틀린 컬렉션으로/dgmoon/travelator/KotlinRoute.kt" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 06. 자바에서 코틀린 컬렉션으로/dgmoon/travelator/KotlinRoute.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 6. 자바에서 코틀린 컬렉션으로/dgmoon/travelator/KotlinSuffering.kt" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 06. 자바에서 코틀린 컬렉션으로/dgmoon/travelator/KotlinSuffering.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 6. 자바에서 코틀린 컬렉션으로/dgmoon/travelator/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 06. 자바에서 코틀린 컬렉션으로/dgmoon/travelator/Location.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 6. 자바에서 코틀린 컬렉션으로/dgmoon/travelator/Routes.java" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 06. 자바에서 코틀린 컬렉션으로/dgmoon/travelator/Routes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 6. 자바에서 코틀린 컬렉션으로/dgmoon/travelator/Suffering.java" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 06. 자바에서 코틀린 컬렉션으로/dgmoon/travelator/Suffering.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 6. 자바에서 코틀린 컬렉션으로/shkim/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 06. 자바에서 코틀린 컬렉션으로/shkim/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 6. 자바에서 코틀린 컬렉션으로/yckim/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 06. 자바에서 코틀린 컬렉션으로/yckim/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 6. 자바에서 코틀린 컬렉션으로/yckim/chapter6/java/Journey.java" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 06. 자바에서 코틀린 컬렉션으로/yckim/chapter6/java/Journey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 6. 자바에서 코틀린 컬렉션으로/yckim/chapter6/java/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 06. 자바에서 코틀린 컬렉션으로/yckim/chapter6/java/Location.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 6. 자바에서 코틀린 컬렉션으로/yckim/chapter6/java/Other.java" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 06. 자바에서 코틀린 컬렉션으로/yckim/chapter6/java/Other.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 6. 자바에서 코틀린 컬렉션으로/yckim/chapter6/java/Route.java" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 06. 자바에서 코틀린 컬렉션으로/yckim/chapter6/java/Route.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 6. 자바에서 코틀린 컬렉션으로/yckim/chapter6/java/v1/Suffering.java" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 06. 자바에서 코틀린 컬렉션으로/yckim/chapter6/java/v1/Suffering.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 6. 자바에서 코틀린 컬렉션으로/yckim/chapter6/java/v2/Suffering.java" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 06. 자바에서 코틀린 컬렉션으로/yckim/chapter6/java/v2/Suffering.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 6. 자바에서 코틀린 컬렉션으로/yckim/chapter6/kotlin/v1/Suffering.kt" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 06. 자바에서 코틀린 컬렉션으로/yckim/chapter6/kotlin/v1/Suffering.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 7. 동작에서 계산으로/bghan/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 07. 동작에서 계산으로/bghan/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 7. 동작에서 계산으로/dgmoon/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 07. 동작에서 계산으로/dgmoon/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 7. 동작에서 계산으로/shkim/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 07. 동작에서 계산으로/shkim/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 7. 동작에서 계산으로/yckim/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 07. 동작에서 계산으로/yckim/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 7. 동작에서 계산으로/yckim/chapter7/java/v1/CurrentTripsHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 07. 동작에서 계산으로/yckim/chapter7/java/v1/CurrentTripsHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 7. 동작에서 계산으로/yckim/chapter7/java/v1/ITrackTrips.java" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 07. 동작에서 계산으로/yckim/chapter7/java/v1/ITrackTrips.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 7. 동작에서 계산으로/yckim/chapter7/java/v1/InMemoryTrips.java" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 07. 동작에서 계산으로/yckim/chapter7/java/v1/InMemoryTrips.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 7. 동작에서 계산으로/yckim/chapter7/java/v1/Request.java" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 07. 동작에서 계산으로/yckim/chapter7/java/v1/Request.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 7. 동작에서 계산으로/yckim/chapter7/java/v1/Response.java" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 07. 동작에서 계산으로/yckim/chapter7/java/v1/Response.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 7. 동작에서 계산으로/yckim/chapter7/java/v1/Tracking.java" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 07. 동작에서 계산으로/yckim/chapter7/java/v1/Tracking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 7. 동작에서 계산으로/yckim/chapter7/java/v1/Trip.java" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 07. 동작에서 계산으로/yckim/chapter7/java/v1/Trip.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 7. 동작에서 계산으로/yckim/chapter7/java/v1/Trips.java" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 07. 동작에서 계산으로/yckim/chapter7/java/v1/Trips.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 7. 동작에서 계산으로/yckim/chapter7/java/v2/CurrentTripsHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 07. 동작에서 계산으로/yckim/chapter7/java/v2/CurrentTripsHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 7. 동작에서 계산으로/yckim/chapter7/java/v2/ITrackTrips.java" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 07. 동작에서 계산으로/yckim/chapter7/java/v2/ITrackTrips.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 7. 동작에서 계산으로/yckim/chapter7/java/v2/InMemoryTrips.java" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 07. 동작에서 계산으로/yckim/chapter7/java/v2/InMemoryTrips.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 7. 동작에서 계산으로/yckim/chapter7/java/v2/Request.java" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 07. 동작에서 계산으로/yckim/chapter7/java/v2/Request.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 7. 동작에서 계산으로/yckim/chapter7/java/v2/Response.java" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 07. 동작에서 계산으로/yckim/chapter7/java/v2/Response.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 7. 동작에서 계산으로/yckim/chapter7/java/v2/Tracking.java" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 07. 동작에서 계산으로/yckim/chapter7/java/v2/Tracking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 7. 동작에서 계산으로/yckim/chapter7/java/v2/Trip.java" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 07. 동작에서 계산으로/yckim/chapter7/java/v2/Trip.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 7. 동작에서 계산으로/yckim/chapter7/java/v2/Trips.java" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 07. 동작에서 계산으로/yckim/chapter7/java/v2/Trips.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 7. 동작에서 계산으로/yckim/chapter7/kotlin/v1/InMemoryTrips.kt" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 07. 동작에서 계산으로/yckim/chapter7/kotlin/v1/InMemoryTrips.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 8. 정적 메서드에서 최상위 함수로/bghan/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 08. 정적 메서드에서 최상위 함수로/bghan/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 8. 정적 메서드에서 최상위 함수로/dgmoon/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 08. 정적 메서드에서 최상위 함수로/dgmoon/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 8. 정적 메서드에서 최상위 함수로/shkim/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 08. 정적 메서드에서 최상위 함수로/shkim/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 8. 정적 메서드에서 최상위 함수로/yckim/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 08. 정적 메서드에서 최상위 함수로/yckim/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 8. 정적 메서드에서 최상위 함수로/yckim/chapter8/java/v1/Shortlists.java" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 08. 정적 메서드에서 최상위 함수로/yckim/chapter8/java/v1/Shortlists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 8. 정적 메서드에서 최상위 함수로/yckim/chapter8/kotlin/v1/HasPrice.kt" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 08. 정적 메서드에서 최상위 함수로/yckim/chapter8/kotlin/v1/HasPrice.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 8. 정적 메서드에서 최상위 함수로/yckim/chapter8/kotlin/v1/HasRating.kt" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 08. 정적 메서드에서 최상위 함수로/yckim/chapter8/kotlin/v1/HasRating.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 8. 정적 메서드에서 최상위 함수로/yckim/chapter8/kotlin/v1/HasRelevance.kt" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 08. 정적 메서드에서 최상위 함수로/yckim/chapter8/kotlin/v1/HasRelevance.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 8. 정적 메서드에서 최상위 함수로/yckim/chapter8/kotlin/v1/Shortlists.kt" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 08. 정적 메서드에서 최상위 함수로/yckim/chapter8/kotlin/v1/Shortlists.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 8. 정적 메서드에서 최상위 함수로/yckim/chapter8/kotlin/v2/Shortlists.kt" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 08. 정적 메서드에서 최상위 함수로/yckim/chapter8/kotlin/v2/Shortlists.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 8. 정적 메서드에서 최상위 함수로/yckim/chapter8/kotlin/v3/Shortlists.kt" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 08. 정적 메서드에서 최상위 함수로/yckim/chapter8/kotlin/v3/Shortlists.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 9. 다중식 함수에서 단일식 함수로/bghan/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 09. 다중식 함수에서 단일식 함수로/bghan/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 9. 다중식 함수에서 단일식 함수로/dgmoon/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 09. 다중식 함수에서 단일식 함수로/dgmoon/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 9. 다중식 함수에서 단일식 함수로/shkim/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 09. 다중식 함수에서 단일식 함수로/shkim/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 9. 다중식 함수에서 단일식 함수로/yckim/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 09. 다중식 함수에서 단일식 함수로/yckim/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 9. 다중식 함수에서 단일식 함수로/yckim/chapter9/kotlin/v1/EmailAddress.kt" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 09. 다중식 함수에서 단일식 함수로/yckim/chapter9/kotlin/v1/EmailAddress.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 9. 다중식 함수에서 단일식 함수로/yckim/chapter9/kotlin/v2/EmailAddress.kt" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 09. 다중식 함수에서 단일식 함수로/yckim/chapter9/kotlin/v2/EmailAddress.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 9. 다중식 함수에서 단일식 함수로/yckim/chapter9/kotlin/v3/EmailAddress.kt" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 09. 다중식 함수에서 단일식 함수로/yckim/chapter9/kotlin/v3/EmailAddress.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 9. 다중식 함수에서 단일식 함수로/yckim/chapter9/kotlin/v4/EmailAddress.kt" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 09. 다중식 함수에서 단일식 함수로/yckim/chapter9/kotlin/v4/EmailAddress.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,27 +217,33 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2KMAiwVDVqyRqneqSn55bq4xLXW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/baekgyu/IdeaProjects/java-to-kotlin-study&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;,
-    &quot;settings.editor.splitter.proportion&quot;: &quot;0.3122222&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/hanbaeggyu/IdeaProjects/java-to-kotlin-study/CHAPTER 10. 함수에서 확장 함수로/shkim",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "inlay.hints",
+    "settings.editor.splitter.proportion": "0.3122222",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/CHAPTER 10. 함수에서 확장 함수로/shkim" />
+      <recent name="$PROJECT_DIR$/CHAPTER 10. 함수에서 확장 함수로/yckim" />
+      <recent name="$PROJECT_DIR$/CHAPTER 10. 함수에서 확장 함수로/dgmoon" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/CHAPTER 2. 자바 프로젝트에서 코틀린 프로젝트로/bghan" />
     </key>
@@ -131,7 +298,56 @@
       <option name="project" value="LOCAL" />
       <updated>1673792672163</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="docs : 10장, 11장, 12장 README.md 추가">
+      <created>1675235731345</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1675235731345</updated>
+    </task>
+    <task id="LOCAL-00007" summary="docs : 10장, 11장, 12장 README.md 추가">
+      <created>1675235751856</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1675235751856</updated>
+    </task>
+    <task id="LOCAL-00008" summary="docs : 10장, 11장, 12장 README.md 추가">
+      <created>1675235770953</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1675235770953</updated>
+    </task>
+    <task id="LOCAL-00009" summary="docs : 10장, 11장, 12장 README.md 추가">
+      <created>1675235773174</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1675235773174</updated>
+    </task>
+    <task id="LOCAL-00010" summary="docs : 10장, 11장, 12장 README.md 추가">
+      <created>1675235778357</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1675235778357</updated>
+    </task>
+    <task id="LOCAL-00011" summary="docs : 10장, 11장, 12장 README.md 추가">
+      <created>1675235779458</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1675235779458</updated>
+    </task>
+    <task id="LOCAL-00012" summary="docs : 10장, 11장, 12장 README.md 추가">
+      <created>1675235822326</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1675235822326</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,7 +364,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/yckim" />
+                        <option value="main" />
                       </list>
                     </value>
                   </entry>
@@ -166,6 +382,8 @@
     <MESSAGE value="docs : Chapter 3. 자바 클래스에서 코틀린 클래스로 내용 정리" />
     <MESSAGE value="docs : Chapter 3. 자바 클래스에서 코틀린 클래스로 예제 코드" />
     <MESSAGE value="chore : gitignore list 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore : gitignore list 추가" />
+    <MESSAGE value="docs : 10장, 11장, 12장 README.md 추가" />
+    <MESSAGE value="chore : chapter 정렬을 위한 1의 자리 번호에 0 삽입" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore : chapter 정렬을 위한 1의 자리 번호에 0 삽입" />
   </component>
 </project>
