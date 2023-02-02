@@ -58,11 +58,14 @@ data class Customer(
 
 ```kt
 fun nameForMarketing(customer: Customer) = 
-    "{{customer.familyName.uppercaseO}, $customer.givenName}"
+    "${customer.familyName.uppercase()}, $customer.givenName}"
 ```
 
 확장성은 `객체지향 < 함수형`
 
 함수형 해법에서는 fullName과 확장 연산을 구분할 수 없지만, 객체지향 해법에서는 메서드와 함수 두가지 형태를 찾아봐야 한다.
 
+<br>
+
+## 확장 함수
 
