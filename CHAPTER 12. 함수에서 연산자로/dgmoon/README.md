@@ -4,7 +4,7 @@
 
 클래스에 대해 plus라는 이름의 연산자 메서드나 연산자 확장함수를 작성하면 + 연산자가 추가된다.
 ```kotlin
-class Moneyy private constructor(
+class Money private constructor(
     val amount: BigDecimal
     val currency: Currency
 ) {
