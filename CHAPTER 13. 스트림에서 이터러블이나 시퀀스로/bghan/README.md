@@ -180,7 +180,7 @@ fun averageNonBlankLength(strings: Sequence<String>): Double {
 </tr>
 </table>
 
-#### 왜 @java.lang.IllegalStateException: This sequence can be consumed only once@ 오류가 발생할까?
+#### 왜 `java.lang.IllegalStateException: This sequence can be consumed only once` 오류가 발생할까?
 
 - `strings.count()`가 0을 반환해 0으로 나누기 에러 발생
 
