@@ -151,7 +151,7 @@ fun averageNonBlankLength(strings: Sequence<String>): Double =
 ```kotlin
 public static double averageNonBlankLength(List<String> strings) {
 	return strings
-	.streamO
+	.stream()
 	.mapToInt(s -> s.isBlank() ? 0 : s.length())
 	.average()
 	.orElse(Double.Nan)
