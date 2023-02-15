@@ -89,7 +89,7 @@ averageNonBlankLength(strings.asSequence())
     	return (strings
     	.onEach { count++ }
     	.filter { it.isNotBlank() }
-    	•sumBy(String::length)
+    	.sumBy(String::length)
     	/ count.toDouble())
     ```
     
