@@ -1,4 +1,4 @@
-# 자바에서 코틀린으로 ch.13-14
+ㄴ# 자바에서 코틀린으로 ch.13-14
 
 ## ch13. 스트림에서 이터러블이나 시퀀스로
 
@@ -109,7 +109,7 @@ private val wrapped: Sequence<T>
 		val countingsequence = CountingSequence(strings)
 		return (countingsequence
 		.filter { it.isNotBlank() }
-		•sumBy(String::length)
+		.sumBy(String::length)
 		/ countingsequence.count.toDouble())
 }
 ```
