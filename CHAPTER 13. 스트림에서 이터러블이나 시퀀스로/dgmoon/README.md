@@ -168,7 +168,7 @@ public double averageNumberOfEventsPerCompletedBooking(
 			.queryAsStream("type=CompletedBooking&timerange=" + timeRange)
 			.flatMap(event -> {
 				String interactionld = (String) event.get("interactionld");
-				return eventstore.queryAsStream("interactionId=” + interactionld);
+				return eventstore.queryAsStream("interactionId=" + interactionld);
 			});
 	Map<String, List<Map<String, Object»> bookingEventsBylnteractionld =
 		eventsForSuccessfulBookings.collect(groupingBy(
