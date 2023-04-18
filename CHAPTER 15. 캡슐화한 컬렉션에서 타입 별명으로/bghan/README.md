@@ -18,7 +18,7 @@ class Itinerary(
 
 - `Itinerary`를 entity 취급할 수 있는 Id 타입의 프로퍼티 존재<br>
 &rArr; 자신 내부에 있는 컬렉션으로 치환 x<br>
-&rArr; List<Itinerary> 를 구현하면 캡슐화되지 않은 컬렉션 장첨
+&rArr; List<Itinerary> 를 구현하면 캡슐화되지 않은 컬렉션 장점
 
 ## 15.3 캡슐화된 컬렉션 리팩토링하기
 
