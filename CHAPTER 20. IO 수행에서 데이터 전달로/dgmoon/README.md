@@ -26,12 +26,12 @@ private fun check(
 	val output = StringWriter()
 	val reader = StringReader(inputLines.joinToString("\n"))
 	generate(reader, output)
-	val outputLines = output.toStringO.lines()
+	val outputLines = output.toString().lines()
 	assertEquals(expectedLines, outputLines)
 }
 ```
 
-즉, I/O 발생 장소를 프로그램 진입점에 가깝게 옮기면 계산으로 처리할 수 있 부분이 많아진다.
+즉, I/O 발생 장소를 프로그램 진입점에 가깝게 옮기면 계산으로 처리할 수 있는 부분이 많아진다.
 
 ## I/O에서 데이터로
 
@@ -83,7 +83,7 @@ fun main() {
 
 함수형 분해를 할 때, 전체 입력을 메모리에 읽어서 처리한 후 전체 출력을 메모리에 만들어서 표준 출력에 기록하는 경우 OutOfMemory 에러가 발생할 가능성이 있다.
 
-List를 이터레이션 하면서 각 줄을 따로따로 기록했더라면 메모리 부족은 발생하지 않았을 것이다. 
+List를 이터레이션하면서 각 줄을 따로따로 기록했더라면 메모리 부족은 발생하지 않았을 것이다. 
 
 ```kotlin
 fun main() {
@@ -140,7 +140,7 @@ private fun Sequence<CustomerData>.summarised(): String =
 }
 ```
 
-원인은 valuablecustomers를 두 번 이터레이션 하기 때문인데, 시퀀스를 두 번 이터레이션 하면서 IllegalStateException이 발생한다.
+원인은 valuablecustomers를 두 번 이터레이션하기 때문인데, 시퀀스를 두 번 이터레이션 하면서 IllegalStateException이 발생한다.
 
 시퀀스에 toList() 호출하도록하여 끝내도록 하고, 파라미터 도입으로 파라미터를 sequence로 변환한다.
 
