@@ -31,7 +31,7 @@ private fun check(
 }
 ```
 
-즉, I/O 발생 장소를 프로그램 진입점에 가깝게 옮기면 계산으로 처리할 수 있느 부분이 많아진다.
+즉, I/O 발생 장소를 프로그램 진입점에 가깝게 옮기면 계산으로 처리할 수 있 부분이 많아진다.
 
 ## I/O에서 데이터로
 
@@ -118,7 +118,7 @@ fun generate(lines: List<String>): Sequence<String> {
 
 ```
 
-읽는 부분에서도 메모리 절약을 할 수 있는데, 위 generate() 함수에서 valueableCustomers를 만들어내는 연산 파이프라인은 라인마다 List를 만들어낸다. 이때, Sequence를 사용하면 중간 컬렉션을 사용하지 않을 수 있지만, lines를 Sequnce로 바꾸고나면 문제가 발생한다.
+읽는 부분에서도 메모리 절약을 할 수 있는데, 위 generate() 함수에서 valueableCustomers를 만들어내는 연산 파이프라인은 라인마다 List를 만들어낸다. 이때, Sequence를 사용하면 중간 컬렉션을 사용하지 않을 수 있지만, lines를 Sequence로 바꾸고나면 문제가 발생한다.
 
 ```kotlin
 fun generate(lines: List<String>): Sequence<String> {
